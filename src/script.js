@@ -8,14 +8,14 @@ const playerInitialsInput = document.getElementById('player-initials');
 const saveScoreBtn = document.getElementById('save-score-btn');
 
 const cardData = [
-  { id: 1, img: '/src/assets/Images/hat1.jfif' },
-  { id: 2, img: '/src/assets/Images/hat2.jfif' },
-  { id: 3, img: '/src/assets/Images/hat3.jfif' },
-  { id: 4, img: '/src/assets/Images/hat4.jfif' },
-  { id: 5, img: '/src/assets/Images/hat5.jfif' },
-  { id: 6, img: '/src/assets/Images/hat6.jfif' },
-  { id: 7, img: '/src/assets/Images/hat7.jfif' },
-  { id: 8, img: '/src/assets/Images/hat8.jfif' },
+  { id: 1, img: '/src/assets/Images/hat1.jpg' },
+  { id: 2, img: '/src/assets/Images/hat2.jpg' },
+  { id: 3, img: '/src/assets/Images/hat3.jpg' },
+  { id: 4, img: '/src/assets/Images/hat4.jpg' },
+  { id: 5, img: '/src/assets/Images/hat5.jpg' },
+  { id: 6, img: '/src/assets/Images/hat6.jpg' },
+  { id: 7, img: '/src/assets/Images/hat7.jpg' },
+  { id: 8, img: '/src/assets/Images/hat8.jpg' },
 ];
 
 let cards = [];

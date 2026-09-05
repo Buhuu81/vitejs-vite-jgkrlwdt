@@ -25,7 +25,7 @@ body {
   background: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   min-width: 200px;
   text-align: left;
 }
@@ -74,7 +74,7 @@ body {
   border-radius: 8px;
   user-select: none;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.2s;
 }
 
@@ -82,8 +82,7 @@ body {
   transform: scale(0.95);
 }
 
-.card.flipped,
-.card.matched {
+.card.flipped, .card.matched {
   background-color: #ffffff;
   /* This removes the pattern when the card is face up */
   background-image: none;
@@ -97,8 +96,7 @@ body {
   display: none;
 }
 
-.card.flipped img,
-.card.matched img {
+.card.flipped img, .card.matched img {
   display: block;
 }
 
@@ -118,10 +116,7 @@ button:hover {
 
 .modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 0; left: 0; width: 100%; height: 100%;
   background: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
@@ -137,7 +132,7 @@ button:hover {
   padding: 40px;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 #player-initials {
