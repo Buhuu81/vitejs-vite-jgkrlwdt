@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trucker Hat Memory Match</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <h1>Trucker Hat Memory Match</h1>
+
+    <div class="layout-container">
+      <div class="game-area">
+        <p>Moves: <span id="move-counter">0</span></p>
+        <div id="game-board" class="grid"></div>
+        <button id="restart-btn">Restart Game</button>
+      </div>
+
+      <div class="scoreboard-area">
+        <h2>Top Scores</h2>
+        <ul id="score-list"></ul>
+      </div>
+    </div>
+
+    <div id="win-modal" class="modal hidden">
+      <div class="modal-content">
+        <h2>You Won!</h2>
+        <p>You matched all hats in <span id="final-moves"></span> moves.</p>
+        <label for="player-initials">Enter 3 Initials:</label>
+        <input
+          type="text"
+          id="player-initials"
+          maxlength="3"
+          autocomplete="off"
+        />
+        <button id="save-score-btn">Save & Play Again</button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>
